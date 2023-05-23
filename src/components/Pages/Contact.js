@@ -1,5 +1,5 @@
 import React from "react";
-import '../../index.css';
+import './contact.css';
 
 export const Contact = () => {
     return (
@@ -21,7 +21,7 @@ export const Contact = () => {
                                 <div class="field">
                                     <i class='fas fa-user'></i>
 
-                                    <input className="space" type="text" name='name' class="form-control" id="exampleForm" placeholder="Seu nome aqui" />
+                                    <input className="space" type="text" name='name'  class="form-control" id="exampleForm" placeholder="Seu nome aqui" />
                                 </div>
                                 <div class="field">
                                     <i class='fas fa-envelope'></i>
@@ -38,12 +38,12 @@ export const Contact = () => {
                             </div>
                             <div class="message">
                             <i class='fa fa-pencil'></i>
-                                <span>
-                                <textarea className="space" required placeholder="Write your message" name="message"></textarea>
-                                </span>
+                                
+                                <textarea className="texatrea"  type="text" required placeholder="Write your message" name="message" rows="7" maxlength="30"></textarea>
+                               
                             </div>
                             <div class="button-area">
-                                <button type="submit"  class="w-100 btn btn-lg btn-dark">
+                                <button className="btn" type="submit"  class="w-100 btn btn-lg btn-dark">
                                     <span>Enviar</span>
                                 </button>
                                 <span></span>

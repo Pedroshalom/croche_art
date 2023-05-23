@@ -12,6 +12,9 @@ code {
     monospace;
 }
 
+/* contato */
+
+
 
 .card {
   margin-top: -90px;
@@ -465,8 +468,9 @@ p{
     font-size: 30px;
   }
 
-  .btn {
+  button {
     margin-bottom: 50px;
+    width: 10px;
   }
 
   /* Botão */
