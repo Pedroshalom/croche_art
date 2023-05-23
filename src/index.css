@@ -214,7 +214,7 @@ footer{
 }
 
 .btn span {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 100;
 }
@@ -430,10 +430,21 @@ p{
     height: 40px;
     border-radius: 12px;
     cursor: pointer;
-    background: #91C9FF;
+    background: #f720af;
     border: 1px solid #91C9FF;
     outline: none;
     transition: 1s ease-in-out;
+  }
+
+  .btn:hover {
+    transition: 1s ease-in-out;
+    background: whitesmoke;
+  }
+
+  .btn span {
+    color: black;
+    font-size: 18px;
+    font-weight: 100;
   }
 
   img {
