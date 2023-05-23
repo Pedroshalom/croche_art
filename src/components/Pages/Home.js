@@ -27,7 +27,7 @@ export const Home = () => {
               <div class="medias-socias">
                 <a href="face"> <i class="fa fa-facebook"></i> </a>
                 <a href="https://www.instagram.com/artecrochenatal/"> <i class="fa fa-instagram"></i> </a>
-                <a href="https://api.whatsapp.com/send?phone=5584999096035&text=Ol%C3%A1%20seja%20bem%20vindo.%20Logo%20voc%C3%AA%20ser%C3%A1%20atendido."> <i class="fa fa-whatsapp"></i> </a>
+                <a href="https://api.whatsapp.com/send?phone=5584999096035&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos."> <i class="fa fa-whatsapp"></i> </a>
                 {/* <a href="#"> <i class="fa fa-twitter"></i> </a> */}
               </div>
               <p className="finish">Arte Crochê</p>
