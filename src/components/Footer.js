@@ -5,7 +5,8 @@ function Footer() {
     return (
 
         <>
-            <div className="main-footer">
+        <footer id="rodape">
+            <div>
                 <div className="row">
                     <div class="medias-socias">
                         <a className="face" href="face"> <i class="fa fa-facebook"></i> </a>
@@ -18,6 +19,7 @@ function Footer() {
                     </p>
                 </div>
             </div>
+            </footer>
         </>
     )
 }
