@@ -1,6 +1,6 @@
 import React from "react";
 import '../../index.css'
-import Footer from "../Footer";
+
 
 export const Home = () => {
   return (
@@ -21,8 +21,6 @@ export const Home = () => {
         </div>
       </div>
     </><div>
-
-        <Footer />
       </div></>
   );
 };
