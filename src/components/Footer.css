@@ -58,6 +58,11 @@ html, body {
     margin-top: -5px;
   }
   
+  .finish {
+    color: whitesmoke;
+    margin-top: -2px;
+  }
+
 
   footer{
     background-color: rgb(245, 156, 171);
