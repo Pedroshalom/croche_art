@@ -1,5 +1,5 @@
 .form-control {
-    background-color: aqua;
+    background-color: white;
     border: solid 1px black;
     border-radius: 5px;
     height: 30px;
@@ -7,7 +7,7 @@
 }
 
 .texatrea {
-    background-color: aqua;
+    background-color: white;
     border: solid 1px black;
     border-radius: 5px;
     height: 200px;
@@ -37,7 +37,7 @@ input[type="text"] {
 
   @media screen and (max-width: 960px) {
     .form-control {
-        background-color: aqua;
+        background-color: white;
         border: solid 1px black;
         border-radius: 5px;
         height: 30px;
@@ -45,7 +45,7 @@ input[type="text"] {
     }
     
     .texatrea {
-        background-color: aqua;
+        background-color: white;
         border: solid 1px black;
         border-radius: 5px;
         height: 200px;

@@ -39,12 +39,12 @@ export const Contact = () => {
                             <div class="message">
                             <i class='fa fa-pencil'></i>
                                 
-                                <textarea className="texatrea"  type="text" required placeholder="Write your message" name="message" rows="7" maxlength="30"></textarea>
+                                <textarea className="texatrea"  type="text" required placeholder="Digite sua menssagem" name="message" rows="7" maxlength="30"></textarea>
                                
                             </div>
                             <div class="button-area">
                                 <button className="btn" type="submit"  class="w-100 btn btn-lg btn-dark">
-                                    <span>Enviar</span>
+                                    <span className="env">Enviar</span>
                                 </button>
                                 <span></span>
                             </div>
