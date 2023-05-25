@@ -17,6 +17,18 @@ export const Home = () => {
               <img className="img2" src="/assets/images/products/11.png" class="d-block w-100" alt="IPhone" height="400px" />
               <hr />
             </div>
+            <div class="carousel-item">
+              <img className="img2" src="/assets/images/products/11.png" class="d-block w-100" alt="IPhone" height="400px" />
+              <hr />
+            </div>
+            <div class="carousel-item">
+              <img className="img2" src="/assets/images/products/11.png" class="d-block w-100" alt="IPhone" height="400px" />
+              <hr />
+            </div>
+            <div class="carousel-item">
+              <img className="img2" src="/assets/images/products/11.png" class="d-block w-100" alt="IPhone" height="400px" />
+              <hr />
+            </div>
           </div>
         </div>
       </div>
