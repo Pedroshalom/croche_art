@@ -1,5 +1,6 @@
 import React from "react";
 import '../../index.css'
+import { NavLink } from "react-router-dom";
 
 export const About = () => {
   return (
@@ -8,14 +9,18 @@ export const About = () => {
         <div class="pricing-column col-lg-4 col-md-6">
           <div class="card">
             <div class="card-header">
-              <span className="title">Sapatinho Vermelho</span>
+              <span className="title">Sapatinho de Bebê em Crochê</span>
             </div>
             <div class="card-body">
               <img className="img2" src="/assets/images/products/sapatinho.jpg" class="d-block w-100" alt="IPhone" height="400px" />
             </div>
-              <h4 className="preço">R$ 50.00</h4>
-              <button class="btn" type="button" >
-              <span>Comprar</span>
+            <button class="btn" type="button" >
+              <span><NavLink
+              className="link"
+                exact
+                to="/sapatinho"
+              >Detalhes
+              </NavLink></span>
               </button>
           </div>
         <hr className="hr"/>
@@ -24,14 +29,18 @@ export const About = () => {
         <div class="pricing-column col-lg-4 col-md-6">
           <div class="card">
             <div class="card-header">
-              <span className="title">cesto</span>
+              <span className="title">Cesto Crochê Redondo</span>
             </div>
             <div class="card-body">
             <img className="img2" src="/assets/images/products/cesto.jpg" class="d-block w-100" alt="IPhone" height="400px" />
             </div>
-            <h2 className="preço">R$99.00</h2>
-              <button type="button" class="w-100 btn btn-lg btn-dark">
-              <span>Comprar</span>
+            <button class="btn" type="button" >
+              <span><NavLink
+              className="link"
+                exact
+                to="/cestinho"
+              >Detalhes
+              </NavLink></span>
               </button>
           </div>
           <hr className="hr"/>
@@ -40,14 +49,18 @@ export const About = () => {
         <div class="pricing-column col-lg-4 col-md-12">
           <div class="card">
             <div class="card-header">
-              <span className="title">Chinelo</span>
+              <span className="title">Bolsa Feminina Crochê Luxo</span>
             </div>
             <div class="card-body">
-              <img className="img2" src="/assets/images/products/chinelo.jpg" class="d-block w-100" alt="IPhone" height="200px" />
+              <img className="img2" src="/assets/images/products/bolsaverde.jpeg" class="d-block w-100" alt="IPhone" height="400px" />
             </div>
-              <h2 className="preço">R$99.00</h2>
-              <button type="button" class="w-100 btn btn-lg btn-dark">
-              <span>Comprar</span>
+              <button class="btn" type="button" >
+              <span><NavLink
+              className="link"
+                exact
+                to="/bolsa"
+              >Detalhes
+              </NavLink></span>
               </button>
           </div>
           <hr className="hr"/>

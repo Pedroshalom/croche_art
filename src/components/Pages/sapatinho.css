@@ -1,0 +1,20 @@
+h4 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+p {
+    color:  rgb(209, 5, 141);
+    margin-top: 15px;
+}
+
+.btn {
+    margin-left: 70px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
