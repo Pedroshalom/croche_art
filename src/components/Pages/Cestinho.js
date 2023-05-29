@@ -6,13 +6,13 @@ export const Cestinho = () => {
     return (
         <div>
             <div class="row">
-                <div class="pricing-column col-lg-4 col-md-6">
+                <div>
                     <div class="card">
-                        <div class="card-header">
+                        <div>
                             <span className="title">Cesto Crochê Redondo</span>
                         </div>
                         <div class="card-body">
-                            <img className="img2" src="/assets/images/products/cesto.jpg" class="d-block w-100" alt="IPhone" height="400px" />
+                            <img className="img2" src="/assets/images/products/cesto.jpg" alt="Cesto" height="400px" />
                         </div>
                         <h4 className="preço">R$ 50.00</h4>
                         <p className="preço">Mantenha o quarto organizado com este cestinho. Use o mini cesto de crochê para organizar os itens ou como um porta treco para qualquer coisa! Além de ser um lindo item de decoração para o quarto.</p>
@@ -24,8 +24,7 @@ export const Cestinho = () => {
                         <button class="btn" type="button" >
                             <NavLink
                                 exact
-                                to="/about"
-                                activeClassName="active"
+                                to="/products"
                                 className="link"
                             >
                                 Voltar

@@ -6,13 +6,13 @@ export const Bolsa = () => {
     return (
         <div>
             <div class="row">
-                <div class="pricing-column col-lg-4 col-md-6">
+                <div>
                     <div class="card">
-                        <div class="card-header">
+                        <div>
                             <span className="title">Bolsa Feminina Crochê Luxo</span>
                         </div>
-                        <div class="card-body">
-                            <img className="img2" src="/assets/images/products/bolsaverde.jpeg" class="d-block w-100" alt="IPhone" height="400px" />
+                        <div>
+                            <img className="img2" src="/assets/images/products/bolsaverde.jpeg" alt="Bolsa" height="400px" />
                         </div>
                         <h4 className="preço">R$ 50.00</h4>
                         <p className="preço">Confeccionada em uma das cores da tendência 2023, aproveite!</p>
@@ -28,8 +28,7 @@ export const Bolsa = () => {
                         <button class="btn" type="button" >
                             <NavLink
                                 exact
-                                to="/about"
-                                activeClassName="active"
+                                to="/products"
                                 className="link"
                             >
                                 Voltar

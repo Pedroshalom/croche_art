@@ -4,9 +4,9 @@ import './contact.css';
 export const Contact = () => {
     return (
         <div>
-            <div className="container mb-5">
+            <div className="container">
                 <div className="row">
-                    <div className="col-12 text-center py-4 my-4">
+                    <div>
                         <h1>
                             Tem alguma pergunta?</h1>
                     </div>

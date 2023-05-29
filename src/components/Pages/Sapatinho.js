@@ -6,13 +6,13 @@ export const Sapatinho = () => {
     return (
         <div>
             <div class="row">
-                <div class="pricing-column col-lg-4 col-md-6">
+                <div>
                     <div class="card">
                         <div class="card-header">
                             <span className="title">Sapatinho de Bebê em Crochê</span>
                         </div>
                         <div class="card-body">
-                            <img className="img2" src="/assets/images/products/sapatinho.jpg" class="d-block w-100" alt="IPhone" height="400px" />
+                            <img className="img2" src="/assets/images/products/sapatinho.jpg" alt="Sapatinho" height="400px" />
                         </div>
                         <h4 className="preço">R$ 50.00</h4>
                         <p className="preço">Lindo Sapatinho de crochê para acompanhar sua bebê desde os primeiros dias de vida! </p>
@@ -27,8 +27,7 @@ export const Sapatinho = () => {
                         <button class="btn" type="button" >
                             <NavLink
                                 exact
-                                to="/about"
-                                activeClassName="active"
+                                to="/products"
                                 className="link"
                             >
                                 Voltar
